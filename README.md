@@ -23,7 +23,7 @@ Only works in environment where `AudioContext` and `fetch` are defined, but you 
 ```javascript
 import waveformer from 'waveformer'
 
-const points = await waveformer(100, 'https://www.myinstants.com/media/sounds/epic.mp3')
+const points = await waveformer(100, 'https://api.allorigins.win/raw?url=https://www.myinstants.com/media/sounds/epic.mp3')
 ```
 
 options object:
@@ -39,3 +39,5 @@ options = {
 ```
 
 Glory to micro-packages!
+
+P.S: To person who published package at this name but then unpublished it. Blame yourself only, haha! 😝

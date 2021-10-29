@@ -12,7 +12,7 @@ export default async function generatePeaks(samples, urlOrAudioBuffer, options =
     arrayBuffer = await response.arrayBuffer()
   }
 
-  const audioBuffer = audioContext.decodeAudioData(arrayBuffer)
+  const audioBuffer = await audioContext.decodeAudioData(arrayBuffer)
 
   const rawData = audioBuffer.getChannelData(options.audioChannel ?? 0)
   const blockSize = Math.floor(rawData.length / samples)
