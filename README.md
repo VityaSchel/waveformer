@@ -4,9 +4,7 @@ Calculates peaks of audio **without drawing it to canvas or creating audio**.
 
 ## How it works
 
-I receive: number of peaks and URL of track/its `ArrayBuffer`
-
-You receive: `[0, 0, 0.2, 0.5, 0.6, 0.8, 0.6, 0.5, 0.1, 0]`
+![](https://user-images.githubusercontent.com/59040542/139410069-8d1d3413-7dd9-4580-8217-8b9691a45bfa.png)
 
 Based on [Article from CSS Tricks](https://css-tricks.com/making-an-audio-waveform-visualizer-with-vanilla-javascript/)
 
