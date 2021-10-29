@@ -1,0 +1,27 @@
+{
+  "name": "waveformer",
+  "version": "1.0.1",
+  "description": "Calculates peaks of audio without drawing it to canvas or creating audio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VityaSchel/waveformer.git"
+  },
+  "keywords": [
+    "waveform",
+    "peaks",
+    "visualizer"
+  ],
+  "author": "vityaschel <vityaschel@utidteam.com> (https://vityaschel.utidteam.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VityaSchel/waveformer/issues"
+  },
+  "homepage": "https://github.com/VityaSchel/waveformer#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0"
+  }
+}
