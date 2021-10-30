@@ -1,10 +1,10 @@
 {
   "name": "waveformer",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Calculates peaks of audio without drawing it to canvas or creating audio",
-  "main": "index.js",
+  "main": "index.min.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel -f index.js -o index.min.js && terser --compress --mangle -- index.min.js -o index.min.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,9 @@
   },
   "homepage": "https://github.com/VityaSchel/waveformer#readme",
   "devDependencies": {
-    "eslint": "^7.32.0"
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^7.32.0",
+    "terser": "^5.9.0"
   }
 }
