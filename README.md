@@ -39,3 +39,7 @@ options = {
 Glory to micro-packages (687 bytes minified)!
 
 P.S: To person who published package at this name but then unpublished it. Blame yourself only, haha! 😝
+
+## License
+
+[MIT](./LICENSE)
